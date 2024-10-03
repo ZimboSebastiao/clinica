@@ -69,21 +69,21 @@ const demoTheme = createTheme({
   cssVariables: {
     colorSchemeSelector: "data-toolpad-color-scheme",
   },
-  // colorSchemes: { light: true, dark: true },
+
   colorSchemes: {
     light: {
       palette: {
         background: {
-          default: "#bfcf11",
-          paper: "#bfcf11",
+          default: "#F9F9FE",
+          paper: "#EEEEF9",
         },
       },
     },
     dark: {
       palette: {
         background: {
-          default: "#2d2e24",
-          paper: "#2d2e24",
+          default: "#2A4364",
+          paper: "#112E4D",
         },
       },
     },
