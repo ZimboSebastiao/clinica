@@ -12,7 +12,6 @@ import { AppProvider } from "@toolpad/core/AppProvider";
 import { DashboardLayout } from "@toolpad/core/DashboardLayout";
 // import styled from "styled-components";
 import { styled } from "@mui/material/styles";
-import { ThemeProvider } from "@mui/material/styles";
 
 const NAVIGATION = [
   {
@@ -70,7 +69,25 @@ const demoTheme = createTheme({
   cssVariables: {
     colorSchemeSelector: "data-toolpad-color-scheme",
   },
-  colorSchemes: { light: true, dark: true },
+  // colorSchemes: { light: true, dark: true },
+  colorSchemes: {
+    light: {
+      palette: {
+        background: {
+          default: "#bfcf11",
+          paper: "#bfcf11",
+        },
+      },
+    },
+    dark: {
+      palette: {
+        background: {
+          default: "#2d2e24",
+          paper: "#2d2e24",
+        },
+      },
+    },
+  },
   breakpoints: {
     values: {
       xs: 0,

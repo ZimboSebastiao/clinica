@@ -1,0 +1,33 @@
+.styled-paper {
+  box-shadow: var(--mui-shadows-0);
+  background-color: white;
+}
+
+.styled-toolbar {
+  padding: 16px;
+  background-color: #9cd80f;
+}
+
+.styled-list {
+  padding: 0;
+  list-style: none;
+}
+
+.styled-list-item {
+  padding: 12px;
+}
+
+.styled-list-item:hover {
+  background-color: #e61818;
+}
+
+.styled-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.styled-icon {
+  margin-right: 8px;
+}
